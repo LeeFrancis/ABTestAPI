@@ -3,7 +3,7 @@ Make sure mongo db is up and running
 
 1. install slc
 
-npm i slc -g
+npm i strongloop -g
 
 2. cd into dir and run 
 
