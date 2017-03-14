@@ -1,0 +1,33 @@
+{
+  "name": "Experiment",
+  "plural": "Experiments",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "config,public": true,
+  "properties": {
+    "json": {
+      "type": "object",
+      "required": true,
+      "comments": "Serialized Planout object"
+    },
+    "script": {
+      "type": "string"
+    },
+    "experiment": {
+      "type": "string"
+    },
+    "experimentId": {
+      "type": "string",
+      "id": true,
+      "required": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
