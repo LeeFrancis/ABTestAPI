@@ -43,5 +43,11 @@
     "public": true,
     "$promise": {},
     "$resolved": true
+  },
+  "GoalResult": {
+    "dataSource": "mongo",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
   }
 }
