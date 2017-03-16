@@ -1,0 +1,42 @@
+{
+  "name": "GoalResult",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "experimentname": {
+      "type": "string"
+    },
+    "eventtype": {
+      "type": "string"
+    },
+    "timestamp": {
+      "type": "number"
+    },
+    "userid": {
+      "type": "string",
+      "index": false
+    },
+    "experimentid": {
+      "type": "string",
+      "required": true,
+      "index": true
+    },
+    "extradata": {
+      "type": "object"
+    },
+    "goalresultid": {
+      "type": "number",
+      "id": false,
+      "required": false,
+      "index": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
